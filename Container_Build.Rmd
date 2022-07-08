@@ -1,5 +1,5 @@
 ---
-title: "Container Build"
+title: "00_DockerSetup"
 output: rmarkdown::github_document
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, encoding = encoding, output_dir = "rendered") })
@@ -126,5 +126,5 @@ pip install sagemaker-studio-image-build
 
 ## Build Processing Container
 ```{bash, results='hide'}
-/home/sagemaker-user/.local/bin/sm-docker build . --file ./docker/Dockerfile-Processing --repository sagemaker-r-processing:1.0
+/home/sagemaker-user/.local/bin/sm-docker build . --file ./docker/Dockerfile-Parallel-Processing --repository sagemaker-r-parallel-processing:1.0
 ```
