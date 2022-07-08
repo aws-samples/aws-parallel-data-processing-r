@@ -1,5 +1,5 @@
 ---
-title: "00_DockerSetup"
+title: "Container Build"
 output: rmarkdown::github_document
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, encoding = encoding, output_dir = "rendered") })
