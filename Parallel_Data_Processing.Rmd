@@ -35,7 +35,7 @@ local_path <- dirname(rstudioapi::getSourceEditorContext()$path)
 
 Refer to Container_Build.rmd to build the container. Container should be built prior to step execution 
 ```{r}
-#Your container_uri should look something like <accountid.dkr.ecr.region.amazonaws.com/sagemaker-r-processing:1.0>
+#Your container_uri should look something like <accountid.dkr.ecr.region.amazonaws.com/sagemaker-r-parallel-processing:1.0>
 container_uri <- paste(account_id, "dkr.ecr", region, "amazonaws.com/sagemaker-r-parallel-processing:1.0", sep=".")
 print(container_uri)
 ```
