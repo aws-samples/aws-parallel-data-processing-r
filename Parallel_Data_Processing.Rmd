@@ -43,7 +43,7 @@ print(container_uri)
 Let's start by uploading our data set into Amazon S3
 
 ```{r}
-local_dataset_path <- "../aws-parallel-data-processing-r/dataset"
+local_dataset_path <-  paste0(local_path,"/dataset/")
 
 dataset_files <- list.files(path=local_dataset_path, pattern="\\.csv$", full.names=TRUE)
 for (file in dataset_files){
