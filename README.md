@@ -24,7 +24,7 @@ How To run Parallel Data processing jobs within RStudio on SageMaker:
     Taking the processed data files, combining them and splitting them into a test, train and validation data set
     Executing the Pipeline
 
-
+![architecture 2](https://user-images.githubusercontent.com/107490848/182706387-b87c3894-7c57-4cb5-b5b0-47335ac29227.png)
 
 ## Security
 
