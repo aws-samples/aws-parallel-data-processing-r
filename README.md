@@ -8,21 +8,32 @@ The goal of this repository helps customers to learn about how to do Parallel Da
 
 Who would benefit from this resources and code: Data scientists, Analysts, ML engineer, Data Engineers and Developers who would like to run a fully-managed RStudio integrated development environment (IDE) in the cloud.
 
-Prior Knowledge: R is used as the programming language for all the labs and participants are assumed to have familiarity with R.
+**_To get started:_**
 
-Pre-requisites: • Setup the RStudio on SageMaker workbench • Create a user with RStudio on SageMaker access permissions
+**Prior Knowledge:** 
+    
+    • R is used as the programming language for all the labs and participants are assumed to have familiarity with R.
 
-Content of this repository: Building the container Running the processing pipeline
+**Pre-requisites**:
 
-How To run Parallel Data processing jobs within RStudio on SageMaker:
+    • Setup the RStudio on SageMaker workbench 
+    • Create a user with RStudio on SageMaker access permissions
 
-    Install the SageMaker Studio Docker CLI and build the container image by using the Container_Build.rmd file.
-    Running the Parallel_Data_ Processing.rmd file to create a parallel data processing pipeline
-    Processing feature engineering job with the filter.R file to filter out certain columns
-    Taking the processed data files, combining them and splitting them into a test, train and validation data set
-    Executing the Pipeline
+**Content of this repository:** 
 
+    • Building the container Running the processing pipeline
 
+![architecture 1](https://user-images.githubusercontent.com/107490848/182706223-aac98e09-c495-4264-823b-2191d0e279e6.png)
+
+**How To run Parallel Data processing jobs within RStudio on SageMaker:**
+
+    • Install the SageMaker Studio Docker CLI and build the container image by using the Container_Build.rmd file.
+    • Running the Parallel_Data_ Processing.rmd file to create a parallel data processing pipeline
+    • Processing feature engineering job with the filter.R file to filter out certain columns
+    • Taking the processed data files, combining them and splitting them into a test, train and validation data set
+    • Executing the Pipeline
+
+![architecture 2](https://user-images.githubusercontent.com/107490848/182706387-b87c3894-7c57-4cb5-b5b0-47335ac29227.png)
 
 ## Security
 
