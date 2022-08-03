@@ -14,6 +14,8 @@ Pre-requisites: • Setup the RStudio on SageMaker workbench • Create a user w
 
 Content of this repository: Building the container Running the processing pipeline
 
+![architecture 1](https://user-images.githubusercontent.com/107490848/182706223-aac98e09-c495-4264-823b-2191d0e279e6.png)
+
 How To run Parallel Data processing jobs within RStudio on SageMaker:
 
     Install the SageMaker Studio Docker CLI and build the container image by using the Container_Build.rmd file.
